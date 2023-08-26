@@ -46,8 +46,8 @@ Options:
 
 ---
 
-##### Unimportant information.
+##### Extra information.
 
-The reason you have to change the wallpaper location mannually is because when you set a wallpaper, a copy of it is created in the `/home/amnesia/Pictures/Wallpapers/` folder. This copy is used as the wallpaper to ensure it is preserved even if the original file is deleted. However, this copied file is temporary and will be removed upon the next reboot. As a result, the `./keeptails.sh backup` script will back up this temporary location. Therefore, after loading the settings using `./keeptails.sh load`, you must manually update the wallpaper location in the `.gnome_settings` file under `[org/gnome/desktop/background]` to point to your desired wallpaper location.
+The reason you have to change the wallpaper location mannually is because when you set a wallpaper, a copy of it is created in the `/home/amnesia/Pictures/Wallpapers/` folder. This copy is used as the wallpaper to ensure it is preserved even if the original file is deleted. However, this copied file is temporary and will be removed upon the next reboot. As a result, the `./keeptails.sh backup` script will back up this temporary location. Therefore, after loading the settings using `./keeptails.sh load`, you must manually update the wallpaper location in the `.gnome_settings` file under `[org/gnome/desktop/background]` to point to your desired wallpaper location in the persistence folder.
 
 ---
